@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB4EF681D11C02F008DF24A /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4EF671D11C02F008DF24A /* UIWindow+Extension.swift */; };
+		0EB4EF6A1D11C042008DF24A /* SaveTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB4EF691D11C042008DF24A /* SaveTool.swift */; };
+		AEBA49441C97BE6A008E91F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA49431C97BE6A008E91F4 /* AppDelegate.swift */; };
+		AEBA494B1C97BE6B008E91F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBA494A1C97BE6B008E91F4 /* Assets.xcassets */; };
+		AEBA494E1C97BE6B008E91F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBA494C1C97BE6B008E91F4 /* LaunchScreen.storyboard */; };
+		AEBA49591C97BE6B008E91F4 /* JiLaiBaoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA49581C97BE6B008E91F4 /* JiLaiBaoSwiftTests.swift */; };
+		AEBA49641C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA49631C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.swift */; };
+		AEBA49791C97C2EE008E91F4 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA49781C97C2EE008E91F4 /* AccountViewController.swift */; };
+		AEBA497B1C97C30C008E91F4 /* FinaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA497A1C97C30C008E91F4 /* FinaceViewController.swift */; };
+		AEBA497F1C97C394008E91F4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA497E1C97C394008E91F4 /* MoreViewController.swift */; };
+		AEBA49811C97C3C4008E91F4 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA49801C97C3C4008E91F4 /* NewFeatureViewController.swift */; };
+		AEBA498B1C9804A8008E91F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA498A1C9804A8008E91F4 /* MainViewController.swift */; };
+		AEBA498E1C980504008E91F4 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = AEBA498D1C980504008E91F4 /* MainVCSettings.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEBA49551C97BE6B008E91F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEBA49381C97BE6A008E91F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBA493F1C97BE6A008E91F4;
+			remoteInfo = JiLaiBaoSwift;
+		};
+		AEBA49601C97BE6B008E91F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEBA49381C97BE6A008E91F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBA493F1C97BE6A008E91F4;
+			remoteInfo = JiLaiBaoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB4EF661D11BFA0008DF24A /* JiLaiBaoSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JiLaiBaoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		0EB4EF671D11C02F008DF24A /* UIWindow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		0EB4EF691D11C042008DF24A /* SaveTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveTool.swift; sourceTree = "<group>"; };
+		AEBA49401C97BE6A008E91F4 /* JiLaiBaoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiLaiBaoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBA49431C97BE6A008E91F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEBA494A1C97BE6B008E91F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEBA494D1C97BE6B008E91F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEBA494F1C97BE6B008E91F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBA49541C97BE6B008E91F4 /* JiLaiBaoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiLaiBaoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBA49581C97BE6B008E91F4 /* JiLaiBaoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiLaiBaoSwiftTests.swift; sourceTree = "<group>"; };
+		AEBA495A1C97BE6B008E91F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBA495F1C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiLaiBaoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBA49631C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiLaiBaoSwiftUITests.swift; sourceTree = "<group>"; };
+		AEBA49651C97BE6B008E91F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBA49781C97C2EE008E91F4 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		AEBA497A1C97C30C008E91F4 /* FinaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinaceViewController.swift; sourceTree = "<group>"; };
+		AEBA497E1C97C394008E91F4 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		AEBA49801C97C3C4008E91F4 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
+		AEBA498A1C9804A8008E91F4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AEBA498D1C980504008E91F4 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEBA493D1C97BE6A008E91F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBA49511C97BE6B008E91F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBA495C1C97BE6B008E91F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB4EF641D11BFA0008DF24A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0EB4EF671D11C02F008DF24A /* UIWindow+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0EB4EF651D11BFA0008DF24A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0EB4EF691D11C042008DF24A /* SaveTool.swift */,
+				0EB4EF661D11BFA0008DF24A /* JiLaiBaoSwift-Bridging-Header.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		79C5C24451C2F79FF3F82E4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE75C3A51C994383005579C5 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		AEBA49371C97BE6A008E91F4 = {
+			isa = PBXGroup;
+			children = (
+				AEBA49421C97BE6A008E91F4 /* JiLaiBaoSwift */,
+				AEBA49571C97BE6B008E91F4 /* JiLaiBaoSwiftTests */,
+				AEBA49621C97BE6B008E91F4 /* JiLaiBaoSwiftUITests */,
+				AEBA49411C97BE6A008E91F4 /* Products */,
+				79C5C24451C2F79FF3F82E4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEBA49411C97BE6A008E91F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49401C97BE6A008E91F4 /* JiLaiBaoSwift.app */,
+				AEBA49541C97BE6B008E91F4 /* JiLaiBaoSwiftTests.xctest */,
+				AEBA495F1C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEBA49421C97BE6A008E91F4 /* JiLaiBaoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49431C97BE6A008E91F4 /* AppDelegate.swift */,
+				AEBA49711C97BF7F008E91F4 /* Classes */,
+				AEBA494A1C97BE6B008E91F4 /* Assets.xcassets */,
+				AEBA494C1C97BE6B008E91F4 /* LaunchScreen.storyboard */,
+				AEBA494F1C97BE6B008E91F4 /* Info.plist */,
+			);
+			path = JiLaiBaoSwift;
+			sourceTree = "<group>";
+		};
+		AEBA49571C97BE6B008E91F4 /* JiLaiBaoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49581C97BE6B008E91F4 /* JiLaiBaoSwiftTests.swift */,
+				AEBA495A1C97BE6B008E91F4 /* Info.plist */,
+			);
+			path = JiLaiBaoSwiftTests;
+			sourceTree = "<group>";
+		};
+		AEBA49621C97BE6B008E91F4 /* JiLaiBaoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49631C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.swift */,
+				AEBA49651C97BE6B008E91F4 /* Info.plist */,
+			);
+			path = JiLaiBaoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		AEBA49711C97BF7F008E91F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49721C97BF7F008E91F4 /* Account */,
+				AEBA49731C97BF7F008E91F4 /* Financing */,
+				AEBA49741C97BF7F008E91F4 /* Main */,
+				AEBA49751C97BF7F008E91F4 /* More */,
+				AEBA49761C97BF7F008E91F4 /* NewFeature */,
+				AEBA49771C97BF7F008E91F4 /* SIgnIn */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEBA49721C97BF7F008E91F4 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49781C97C2EE008E91F4 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		AEBA49731C97BF7F008E91F4 /* Financing */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA497A1C97C30C008E91F4 /* FinaceViewController.swift */,
+			);
+			path = Financing;
+			sourceTree = "<group>";
+		};
+		AEBA49741C97BF7F008E91F4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0EB4EF641D11BFA0008DF24A /* Category */,
+				0EB4EF651D11BFA0008DF24A /* Tools */,
+				AE75C3A51C994383005579C5 /* Lib */,
+				AEBA498A1C9804A8008E91F4 /* MainViewController.swift */,
+				AEBA498C1C9804C5008E91F4 /* Resource */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AEBA49751C97BF7F008E91F4 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA497E1C97C394008E91F4 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		AEBA49761C97BF7F008E91F4 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA49801C97C3C4008E91F4 /* NewFeatureViewController.swift */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		AEBA49771C97BF7F008E91F4 /* SIgnIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SIgnIn;
+			sourceTree = "<group>";
+		};
+		AEBA498C1C9804C5008E91F4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA498D1C980504008E91F4 /* MainVCSettings.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEBA493F1C97BE6A008E91F4 /* JiLaiBaoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBA49681C97BE6B008E91F4 /* Build configuration list for PBXNativeTarget "JiLaiBaoSwift" */;
+			buildPhases = (
+				AEBA493C1C97BE6A008E91F4 /* Sources */,
+				AEBA493D1C97BE6A008E91F4 /* Frameworks */,
+				AEBA493E1C97BE6A008E91F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiLaiBaoSwift;
+			productName = JiLaiBaoSwift;
+			productReference = AEBA49401C97BE6A008E91F4 /* JiLaiBaoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEBA49531C97BE6B008E91F4 /* JiLaiBaoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBA496B1C97BE6B008E91F4 /* Build configuration list for PBXNativeTarget "JiLaiBaoSwiftTests" */;
+			buildPhases = (
+				AEBA49501C97BE6B008E91F4 /* Sources */,
+				AEBA49511C97BE6B008E91F4 /* Frameworks */,
+				AEBA49521C97BE6B008E91F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBA49561C97BE6B008E91F4 /* PBXTargetDependency */,
+			);
+			name = JiLaiBaoSwiftTests;
+			productName = JiLaiBaoSwiftTests;
+			productReference = AEBA49541C97BE6B008E91F4 /* JiLaiBaoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEBA495E1C97BE6B008E91F4 /* JiLaiBaoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBA496E1C97BE6B008E91F4 /* Build configuration list for PBXNativeTarget "JiLaiBaoSwiftUITests" */;
+			buildPhases = (
+				AEBA495B1C97BE6B008E91F4 /* Sources */,
+				AEBA495C1C97BE6B008E91F4 /* Frameworks */,
+				AEBA495D1C97BE6B008E91F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBA49611C97BE6B008E91F4 /* PBXTargetDependency */,
+			);
+			name = JiLaiBaoSwiftUITests;
+			productName = JiLaiBaoSwiftUITests;
+			productReference = AEBA495F1C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEBA49381C97BE6A008E91F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = youmy;
+				TargetAttributes = {
+					AEBA493F1C97BE6A008E91F4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AEBA49531C97BE6B008E91F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AEBA493F1C97BE6A008E91F4;
+					};
+					AEBA495E1C97BE6B008E91F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AEBA493F1C97BE6A008E91F4;
+					};
+				};
+			};
+			buildConfigurationList = AEBA493B1C97BE6A008E91F4 /* Build configuration list for PBXProject "JiLaiBaoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEBA49371C97BE6A008E91F4;
+			productRefGroup = AEBA49411C97BE6A008E91F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEBA493F1C97BE6A008E91F4 /* JiLaiBaoSwift */,
+				AEBA49531C97BE6B008E91F4 /* JiLaiBaoSwiftTests */,
+				AEBA495E1C97BE6B008E91F4 /* JiLaiBaoSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEBA493E1C97BE6A008E91F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA494E1C97BE6B008E91F4 /* LaunchScreen.storyboard in Resources */,
+				AEBA494B1C97BE6B008E91F4 /* Assets.xcassets in Resources */,
+				AEBA498E1C980504008E91F4 /* MainVCSettings.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBA49521C97BE6B008E91F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBA495D1C97BE6B008E91F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEBA493C1C97BE6A008E91F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA497B1C97C30C008E91F4 /* FinaceViewController.swift in Sources */,
+				AEBA49441C97BE6A008E91F4 /* AppDelegate.swift in Sources */,
+				0EB4EF681D11C02F008DF24A /* UIWindow+Extension.swift in Sources */,
+				AEBA497F1C97C394008E91F4 /* MoreViewController.swift in Sources */,
+				AEBA49791C97C2EE008E91F4 /* AccountViewController.swift in Sources */,
+				AEBA49811C97C3C4008E91F4 /* NewFeatureViewController.swift in Sources */,
+				0EB4EF6A1D11C042008DF24A /* SaveTool.swift in Sources */,
+				AEBA498B1C9804A8008E91F4 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBA49501C97BE6B008E91F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA49591C97BE6B008E91F4 /* JiLaiBaoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBA495B1C97BE6B008E91F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA49641C97BE6B008E91F4 /* JiLaiBaoSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEBA49561C97BE6B008E91F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEBA493F1C97BE6A008E91F4 /* JiLaiBaoSwift */;
+			targetProxy = AEBA49551C97BE6B008E91F4 /* PBXContainerItemProxy */;
+		};
+		AEBA49611C97BE6B008E91F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEBA493F1C97BE6A008E91F4 /* JiLaiBaoSwift */;
+			targetProxy = AEBA49601C97BE6B008E91F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEBA494C1C97BE6B008E91F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBA494D1C97BE6B008E91F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEBA49661C97BE6B008E91F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEBA49671C97BE6B008E91F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEBA49691C97BE6B008E91F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jieliang Xia (VSCPTR8TC3)";
+				INFOPLIST_FILE = JiLaiBaoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiLaiBaoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c02f19dd-001e-4396-a12f-5b671eca28f2";
+				SWIFT_OBJC_BRIDGING_HEADER = "JiLaiBaoSwift/Classes/Main/Tools/JiLaiBaoSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		AEBA496A1C97BE6B008E91F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jieliang Xia (VSCPTR8TC3)";
+				INFOPLIST_FILE = JiLaiBaoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiLaiBaoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c02f19dd-001e-4396-a12f-5b671eca28f2";
+				SWIFT_OBJC_BRIDGING_HEADER = "JiLaiBaoSwift/Classes/Main/Tools/JiLaiBaoSwift-Bridging-Header.h";
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		AEBA496C1C97BE6B008E91F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiLaiBaoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiLaiBaoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiLaiBaoSwift.app/JiLaiBaoSwift";
+			};
+			name = Debug;
+		};
+		AEBA496D1C97BE6B008E91F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JiLaiBaoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiLaiBaoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiLaiBaoSwift.app/JiLaiBaoSwift";
+			};
+			name = Release;
+		};
+		AEBA496F1C97BE6B008E91F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiLaiBaoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiLaiBaoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiLaiBaoSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AEBA49701C97BE6B008E91F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JiLaiBaoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JiLaiBaoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JiLaiBaoSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEBA493B1C97BE6A008E91F4 /* Build configuration list for PBXProject "JiLaiBaoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBA49661C97BE6B008E91F4 /* Debug */,
+				AEBA49671C97BE6B008E91F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBA49681C97BE6B008E91F4 /* Build configuration list for PBXNativeTarget "JiLaiBaoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBA49691C97BE6B008E91F4 /* Debug */,
+				AEBA496A1C97BE6B008E91F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBA496B1C97BE6B008E91F4 /* Build configuration list for PBXNativeTarget "JiLaiBaoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBA496C1C97BE6B008E91F4 /* Debug */,
+				AEBA496D1C97BE6B008E91F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBA496E1C97BE6B008E91F4 /* Build configuration list for PBXNativeTarget "JiLaiBaoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBA496F1C97BE6B008E91F4 /* Debug */,
+				AEBA49701C97BE6B008E91F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEBA49381C97BE6A008E91F4 /* Project object */;
+}

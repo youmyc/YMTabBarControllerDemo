@@ -1,0 +1,20 @@
+[
+ {
+    "vcName": "FinaceViewController",
+    "title": "理财",
+    "imageName": "tabbar_financial_default",
+    "selectedImage": "tabbar_financial_selected"
+ },
+ {
+     "vcName": "AccountViewController",
+     "title": "帐户",
+     "imageName": "tabbar_account_default",
+     "selectedImage": "tabbar_account_selected"
+ },
+ {
+     "vcName": "MoreViewController",
+     "title": "更多",
+     "imageName": "tabbar_more_default",
+     "selectedImage": "tabbar_more_selected"
+ }
+ ]
